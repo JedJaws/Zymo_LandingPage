@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html style="scroll-behavior: smooth;">
     <head>
         <meta name="viewport" content="width=device-width, intitial-scale=1.0" charset="UTF-8">
         <title></title>
@@ -7,10 +7,90 @@
     <body style="display:flex; align-items:center; justify-content:center; margin:0;">
         <div style="width:100%; text-align:center; line-height:1.2em;">
             <img src="banner.jpg" alt="Zymo banner header" style="width:100%; height:100%;">
-            <P style="text-align:center; color:green; font-size:50px; font-family: Arial, sans-serif;">
+            <h1 style="text-align:center; color:green; font-family: Arial, sans-serif;">
                 <strong>Header Text</strong>
-            </P>
-        </div>
+            </h1>
+            <p style="text-align:center; color:black; font-size:2vw; font-family: Arial, sans-serif;">
+                <strong>Lorem Ipsum</strong>
+            </p>
+            <ul style="list-style:none; display:flex; text-align:center; justify-content:space-between; padding:0; margin:5%;">
+                <li style="display:inline-block;">
+                    <img src="checkmark_icon.jpg" alt="Check mark image" style="width:50%; height:auto">
+                    <br>
+                    <strong style="font-family: Arial, Helvetica, sans-serif;">Lorem ipsum</strong>
+                </li>
+                <li style="display:inline-block;">
+                    <img src="graphs_icon.jpg" alt="Graphs image" style="width:50%; height:auto">
+                    <br>
+                    <strong style="font-family: Arial, Helvetica, sans-serif;">Lorem ipsum</strong>
+                </li>
+                <li style="display:inline-block;">
+                    <img src="bullseye_icon.jpg" alt="Bullseye image" style="width:50%; height:auto">
+                    <br>
+                    <strong style="font-family: Arial, Helvetica, sans-serif;">Lorem ipsum</strong>
+                </li>
+            </ul>
+            <script src="js/app.js"></script>
+            <button onclick="toBottom()" id="toBottom" title="Go to Form" style="background-color:green; color:white; padding:15px 32px; text-align: center; font-size:16px; border: none;"><strong>Inquire Now</strong></button>
+            <p style="padding: 1%;"></p>
+            <div style="background-color:lightgrey; text-align:center; padding:2% 8%;">
+                <h3 style="text-align:center; font-family: Arial, Helvetica, sans-serif;">
+                    Header Text
+                </h3>
+                <h4 style="text-align:center; font-family: Arial, Helvetica, sans-serif;">
+                    Lorem Ipsum
+                </h4>
+                <p style="text-align:justify; font-family: Arial, Helvetica, sans-serif; padding:15px 150px; font-size: 1.5vw;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Et ultrices neque ornare aenean euismod elementum nisi. Aliquet risus feugiat in ante metus dictum. Vestibulum
+                    sed arcu non odio euismod. Ornare quam viverra orci sagittis eu. Nisi vitae suscipit tellus mauris a diam maecenas sed
+                    enim. Amet facilisis magna etiam tempor orci eu lobortis elementum nibh. Amet luctus venenatis lectus magna fringilla
+                    urna porttitor. Massa ultricies mi quis hendrerit. Duis convallis convallis tellus id interdum. Diam maecenas ultricies mi
+                    eget mauris pharetra et ultrices.
+                </p>
+                <p style="text-align:justify; font-family: Arial, Arial, Helvetica, sans-serif; padding:15px 150px; font-size: 1.5vw;">
+                    Lorem ipsum dolor sit amet. Nisi est sit amet facilisis magna etiam tempor. Quam lacus suspendisse faucibus interdum
+                    posuere lorem ipsum. Amet massa vitae tortor condimentum. Lobortis scelerisque fermentum dui faucibus in ornare. Nisl
+                    nisi scelerisque eu ultrices vitae auctor eu augue ut. Morbi tincidunt ornare massa eget egestas. Consequat id porta nibh
+                    venenatis cras. Nibh venenatis cras sed felis eget. Fringilla urna porttitor rhoncus dolor purus. Et netus et malesuada fames
+                    ac turpis egestas. Diam ut venenatis tellus in metus vulputate.
+                </p>
+            </div>
+            <div style="text-align:center; padding:0% 20%; margin:4%;">
+                <h3 style="text-align:center; font-family: Arial, Helvetica, sans-serif;">
+                    Form
+                </h3>
+                <form action="form.php" method="post">
+                    <ul style="list-style:none; display:flex; justify-content: space-evenly;">
+                        <li style="display:inline-block; text-align:left;">
+                            <label for="firstName" style="text-align:left;">First Name</label><br>
+                            <input type="text" id="firstName" name="firstName">
+                        </li>
+                        <li style="display:inline-block; text-align:left;">
+                            <label for="lastName" style="text-align:left;">Last Name</label><br>
+                            <input type="text" id="lastName" name="lastName">
+                        </li>
+                    </ul>
+                    <ul style="list-style:none; display:flex; justify-content: space-evenly;">
+                        <li style="display:inline-block; text-align:left;">
+                            <label for="company">Company</label><br>
+                            <input type="text" id="company" name="company">
+                        </li>
+                        <li style="display:inline-block; text-align:left;">
+                            <label for="role">Role</label><br>
+                            <input type="text" id="role" name="role">
+                        </li>
+                    </ul>
+                    <ul style="list-style:none; display:flex; text-align:center; justify-content: space-evenly;">
+                        <li style="display:inline-block; text-align:left;">
+                            <label for="addComment">Additional Comments</label><br>
+                            <textarea id="addComment" name="addComment" rows="4" cols="50"></textarea><br>
+                        </li>
+                    </ul>
+                    <input style="text-align: center;" type="submit" value="Submit">
+                </form>
 
+            </div>
+        </div>
     </body>
 </html>
