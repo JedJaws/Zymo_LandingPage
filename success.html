@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, intitial-scale=1.0" charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+        <title></title>
+    </head>
+    <body>
+        <div class="topdiv">
+            <img src="banner.jpg" alt="Zymo banner header" style="width:100%; height:100%;">
+            <h1><strong>Header Text</strong></h1>
+            <h3><strong>Lorem Ipsum</strong></h3>
+            <ul>
+                <li style="display:inline-block;">
+                    <img src="checkmark_icon.jpg" alt="Check mark image" style="width:50%; height:auto">
+                    <br><br>
+                    <strong style="font-family: Arial, Helvetica, sans-serif; font-size: auto;">Lorem ipsum</strong>
+                </li>
+                <li style="display:inline-block;">
+                    <img src="graphs_icon.jpg" alt="Graphs image" style="width:50%; height:auto">
+                    <br><br>
+                    <strong style="font-family: Arial, Helvetica, sans-serif; font-size: auto;">Lorem ipsum</strong>
+                </li>
+                <li style="display:inline-block;">
+                    <img src="bullseye_icon.jpg" alt="Bullseye image" style="width:50%; height:auto">
+                    <br><br>
+                    <strong style="font-family: Arial, Helvetica, sans-serif; font-size: auto;">Lorem ipsum</strong>
+                </li>
+            </ul>
+            <script src="js/app.js"></script>
+            <button onclick="toBottom()" id="toBottom" title="Go to Form" ><strong>Inquire Now</strong></button>
+            <p style="padding: 1%;"></p>
+            <div class="middiv">
+                <h3>Header Text</h3>
+                <h4 style="text-align:center; font-family: Arial, Helvetica, sans-serif;">
+                    Lorem Ipsum
+                </h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Et ultrices neque ornare aenean euismod elementum nisi. Aliquet risus feugiat in ante metus dictum. Vestibulum
+                    sed arcu non odio euismod. Ornare quam viverra orci sagittis eu. Nisi vitae suscipit tellus mauris a diam maecenas sed
+                    enim. Amet facilisis magna etiam tempor orci eu lobortis elementum nibh. Amet luctus venenatis lectus magna fringilla
+                    urna porttitor. Massa ultricies mi quis hendrerit. Duis convallis convallis tellus id interdum. Diam maecenas ultricies mi
+                    eget mauris pharetra et ultrices.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet. Nisi est sit amet facilisis magna etiam tempor. Quam lacus suspendisse faucibus interdum
+                    posuere lorem ipsum. Amet massa vitae tortor condimentum. Lobortis scelerisque fermentum dui faucibus in ornare. Nisl
+                    nisi scelerisque eu ultrices vitae auctor eu augue ut. Morbi tincidunt ornare massa eget egestas. Consequat id porta nibh
+                    venenatis cras. Nibh venenatis cras sed felis eget. Fringilla urna porttitor rhoncus dolor purus. Et netus et malesuada fames
+                    ac turpis egestas. Diam ut venenatis tellus in metus vulputate.
+                </p>
+            </div>
+            <div class="botdiv">
+                <h3>Form</h3>
+                <form action="https://formsubmit.co/eb0cbbdc4bbf68e7139010e7acc2dd09" method="POST">
+                    <input type="text" name="_honey" style="display:none;">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="success.html">
+                    <ul style="list-style:none; display:flex; justify-content: space-evenly; padding:0; margin:5%;">
+                        <li style="display:inline-block; text-align:left;">
+                            <label for="firstName" style="text-align:left;">First Name</label><br>
+                            <input type="text" id="firstName" name="First&nbsp;Name">
+                        </li>
+                        <li style="display:inline-block; text-align:left;">
+                            <label for="lastName" style="text-align:left;">Last Name</label><br>
+                            <input type="text" id="lastName" name="Last&nbsp;Name">
+                        </li>
+                    </ul>
+                    <ul style="list-style:none; display:flex; justify-content: space-evenly; padding:0; margin:5%;">
+                        <li style="display:inline-block; text-align:left; resize: none;">
+                            <label for="company">Company</label><br>
+                            <input type="text" id="company" name="Company">
+                        </li>
+                        <li style="display:inline-block; text-align:left;">
+                            <label for="role">Role</label><br>
+                            <input type="text" id="role" name="Role">
+                        </li>
+                    </ul>
+                    <ul style="list-style:none; display:flex; text-align:center; justify-content: space-evenly; padding:0; margin:5%;">
+                        <li style="display:inline-block; text-align:left;">
+                            <label for="addComment">Additional Comments</label><br>
+                            <textarea id="addComment" name="Add&nbsp;Comment" rows="4" cols="50"></textarea><br>
+                        </li>
+                    </ul>
+                    <input class="inputButton" type="submit" value="Submit">
+                </form>
+                <p id="submit_successful">
+                    Submission Successful!
+                </p>
+
+            </div>
+        </div>
+    </body>
+</html>
