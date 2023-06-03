@@ -28,8 +28,24 @@ button {
     border: none;
 }
 
+button:hover {
+    background-color: rgb(9, 62, 9);
+    color:white; padding:12px 40px; 
+    text-align: center; font-size:20px; 
+    border: none;
+}
+
 .inputButton{
     background-color:rgb(35, 137, 35); 
+    color:white; 
+    padding:12px 40px; 
+    text-align: center; 
+    font-size:16px; 
+    border: none;
+}
+
+.inputButton:hover {
+    background-color:rgb(9, 62, 9); 
     color:white; 
     padding:12px 40px; 
     text-align: center; 
