@@ -48,6 +48,14 @@ button:hover {
     border: none;
 }
 
+.inputType {
+    border-radius: 5px;
+    width: 165px;
+    height: 25px;
+}
+
+
+
 .inputButton{
     background-color:rgb(35, 137, 35); 
     color:white; 
