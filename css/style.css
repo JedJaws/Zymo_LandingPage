@@ -51,19 +51,21 @@ button:hover {
 .inputButton{
     background-color:rgb(35, 137, 35); 
     color:white; 
-    padding:12px 40px; 
+    padding:12px 60px; 
     text-align: center; 
-    font-size:16px; 
+    font-size:20px; 
     border: none;
+    font-weight: bold;
 }
 
 .inputButton:hover {
     background-color:rgb(9, 62, 9); 
     color:white; 
-    padding:12px 40px; 
+    padding:12px 60px; 
     text-align: center; 
-    font-size:16px; 
+    font-size:20px; 
     border: none;
+    font-weight: bold;
 }
 
 ul {
@@ -96,10 +98,9 @@ p {
 }
 
 .botdiv {
-    text-align:center; 
-    padding:0% 40%; 
-    margin:4%; 
-    resize: none;
+    text-align:center;
+    padding: 0% 40%; 
+    margin: 4%;
 }
 
 .sucbotdiv {
