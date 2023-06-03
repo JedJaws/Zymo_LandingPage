@@ -72,3 +72,11 @@ p {
     margin:4%; 
     resize: none;
 }
+
+#submit_successful {
+    display: none;
+}
+
+#submit_successful.show {
+    display: block;
+}
