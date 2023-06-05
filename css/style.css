@@ -92,6 +92,10 @@ p {
     font-size: auto;
 }
 
+textarea {
+    resize:none;
+}
+
 .topdiv {
     width:100%; 
     text-align:center; 
