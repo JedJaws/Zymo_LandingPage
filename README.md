@@ -6,7 +6,8 @@ This webpage was created to showcase my personal experience. It enables the user
 ### Tools Utilized
 - Html, CSS, Javascript - to develop a proper webpage with style and minor functionality.
 - formsubmit - allows the user to submit a form which then sends an email to me.
-Exampled of a submitted form:
+
+Example of a submitted form:
 ![form_submit](https://github.com/JedJaws/Zymo_LandingPage/assets/89428375/3b78a24c-278c-435d-ae16-b57ee24f579a)
 
 ### Tags Utilized
