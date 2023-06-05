@@ -7,9 +7,16 @@
     </head>
     <body>
         <div class="topdiv">
+            <!--
+                Provided banner image placed at the top of the web page
+            -->
             <img src="banner.jpg" alt="Zymo banner header" style="width:100%; height:100%;">
             <h1><strong>Header Text</strong></h1>
             <h3><strong>Lorem Ipsum</strong></h3>
+
+            <!--
+                Horizontal List of provided images with labels
+            -->
             <ul>
                 <li style="display:inline-block;">
                     <img src="checkmark_icon.jpg" alt="Check mark image" style="width:50%; height:auto">
@@ -27,9 +34,17 @@
                     <strong style="font-family: Arial, Helvetica, sans-serif; font-size: 20px;">Lorem ipsum</strong>
                 </li>
             </ul>
+
+            <!--
+                Inquire Now button created with javascript function that scrolls the page to the form at the bottom
+            -->
             <script src="js/app.js"></script>
             <button onclick="toBottom()" id="toBottom" title="Go to Form" ><strong>Inquire Now</strong></button>
             <p style="padding: 1%;"></p>
+
+            <!--
+                Middle div created to provide a descriptive section
+            -->
             <div class="middiv">
                 <h3>Header Text</h3>
                 <h4 style="text-align:center; font-family: Arial, Helvetica, sans-serif;">
@@ -51,6 +66,10 @@
                     ac turpis egestas. Diam ut venenatis tellus in metus vulputate.
                 </p>
             </div>
+
+            <!--
+                Bottom div that formats the form tag and enables users to submit the form through formsubmit
+            -->
             <div class="botdiv">
                 <h3>Form</h3>
                 <form action="https://formsubmit.co/eb0cbbdc4bbf68e7139010e7acc2dd09" method="POST">
@@ -60,27 +79,27 @@
                     <ul style="list-style:none; display:flex; justify-content: space-evenly; padding:0; margin-left:5%;">
                         <li style="display:inline-block; text-align:left; padding-right: 55px;">
                             <label style="font-family: Arial, sans-serif; font-weight: bold;" for="firstName" style="text-align:left;">First Name</label><br>
-                            <input type="text" id="firstName" name="First&nbsp;Name">
+                            <input type="text" id="firstName" name="First&nbsp;Name" required>
                         </li>
                         <li style="display:inline-block; text-align:left;">
                             <label style="font-family: Arial, sans-serif; font-weight: bold;" for="lastName" style="text-align:left;">Last Name</label><br>
-                            <input type="text" id="lastName" name="Last&nbsp;Name">
+                            <input type="text" id="lastName" name="Last&nbsp;Name" required>
                         </li>
                     </ul>
                     <ul style="list-style:none; display:flex; justify-content: space-evenly; padding:0; margin:5%;">
                         <li style="display:inline-block; text-align:left;  padding-right: 55px;">
                             <label style="font-family: Arial, sans-serif; font-weight: bold;" for="company">Company</label><br>
-                            <input type="text" id="company" name="Company">
+                            <input type="text" id="company" name="Company" required>
                         </li>
                         <li style="display:inline-block; text-align:left;">
                             <label style="font-family: Arial, sans-serif; font-weight: bold;" for="role">Role</label><br>
-                            <input type="text" id="role" name="Role">
+                            <input type="text" id="role" name="Role" required>
                         </li>
                     </ul>
                     <ul style="list-style:none; display:flex; text-align:center; justify-content: space-evenly; padding:0; margin:5%;">
                         <li style="display:inline-block; text-align:left;">
                             <label style="font-family: Arial, sans-serif; font-weight: bold;" for="addComment">Additional Comments</label><br>
-                            <textarea id="addComment" name="Add&nbsp;Comment" rows="4" cols="50"></textarea><br>
+                            <textarea id="addComment" name="Comments" rows="4" cols="50" required></textarea><br>
                         </li>
                     </ul>
                     <input class="inputButton" type="submit" value="Submit">
