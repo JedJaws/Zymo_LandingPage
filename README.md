@@ -1,4 +1,5 @@
 # Zymo_LandingPage
-A Landing page developed form Zymo Research
+A Landing page developed for Zymo Research and can reached here:
+https://jedjaws.github.io/Zymo_LandingPage/
 ## Landing Page Description
 This webpage was created to showcase my personal experience. It enables the user to press an "Inquire Now" button that scrolls the web page down to the form at the bottom. The user is then able to input their information in the required fields and submit their information. That information is then sent to my email notifying me that a form had been sent and of the information that was provided. After submitting the information, the user is then taken to "success.html", which automatically scrolls to the bottom of the page upon arrival, and then notifies the user that the form had been successfully submitted. "success.html" also informs the user that if another form were to be submitted they must press the "click" button to return to "index.html". This webpage is also responsive and can be used by different browsers and different viewing sizes.
